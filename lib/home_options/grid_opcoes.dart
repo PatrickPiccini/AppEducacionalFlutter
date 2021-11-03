@@ -1,12 +1,12 @@
-import 'package:imdapp/contato.dart';
-import 'package:imdapp/calendario.dart';
-import 'package:imdapp/dicas.dart';
-import 'package:imdapp/horarios.dart';
-import 'package:imdapp/notas.dart';
-import 'package:imdapp/notificacoes.dart';
-import 'package:imdapp/positivoon.dart';
-import 'package:imdapp/avaliacao.dart';
+import 'package:imdapp/utills/contato.dart';
+import 'package:imdapp/utills/calendario.dart';
+import 'package:imdapp/utills/dicas.dart';
+import 'package:imdapp/utills/horarios.dart';
+import 'package:imdapp/utills/notas.dart';
+import 'package:imdapp/utills/positivoon.dart';
+import 'package:imdapp/utills/avaliacao.dart';
 import 'package:flutter/material.dart';
+import 'package:imdapp/utills/creditos.dart';
 
 class GridOpcoes extends StatelessWidget {
   @override
@@ -45,19 +45,18 @@ class GridOpcoes extends StatelessWidget {
               Container(
                   margin: (EdgeInsets.fromLTRB(50, 20, 30, 0)),
                   child: buttonIcon(
+                      Icon(Icons.data_usage_rounded, color: Colors.grey[900]),
+                      'Positivo ON',
+                      context,
+                      PositivoON())),
+              Container(
+                  margin: (EdgeInsets.fromLTRB(30, 30, 50, 0)),
+                  child: buttonIcon(
                       Icon(Icons.calendar_today_outlined,
                           color: Colors.grey[900]),
                       'Calendário',
                       context,
                       Calendario())),
-              Container(
-                  margin: (EdgeInsets.fromLTRB(30, 20, 50, 0)),
-                  child: buttonIcon(
-                      Icon(Icons.circle_notifications_outlined,
-                          color: Colors.grey[900]),
-                      'Notificações',
-                      context,
-                      Notificacoes())),
             ],
           ),
           Row(
@@ -84,26 +83,25 @@ class GridOpcoes extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                  margin: (EdgeInsets.fromLTRB(50, 20, 30, 0)),
-                  child: buttonIcon(
-                      Icon(Icons.data_usage_rounded, color: Colors.grey[900]),
-                      'Positivo ON',
-                      context,
-                      PositivoON())),
-              Container(
-                  margin: (EdgeInsets.fromLTRB(30, 20, 50, 0)),
+                  margin: (EdgeInsets.fromLTRB(50, 30, 30, 0)),
                   child: buttonIcon(
                       Icon(Icons.add_ic_call_rounded, color: Colors.grey[900]),
                       'Contatos',
                       context,
                       Contato())),
+              Container(
+                  margin: (EdgeInsets.fromLTRB(30, 20, 50, 0)),
+                  child: buttonIcon(
+                      Icon(Icons.person,
+                          color: Colors.grey[900]),
+                      'Creditos',
+                      context,
+                      Creditos())),
             ],
           )
         ],
       ),
-    )
-    );
-
+    ));
   }
 }
 
