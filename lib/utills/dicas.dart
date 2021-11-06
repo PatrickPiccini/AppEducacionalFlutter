@@ -10,11 +10,8 @@ class Dicas extends StatelessWidget {
       ),
       body:  Column(children: [
         Container(
-          padding: EdgeInsets.fromLTRB(
-            15,
-            15,
-            15,
-            15,
+          padding: EdgeInsets.all(
+            15
           ),
           child: Column(
             children: [
