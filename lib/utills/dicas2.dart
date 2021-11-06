@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class Contato extends StatelessWidget {
+class Dicas extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Avaliações'),
+        title: Text('Dicas'),
         backgroundColor: Colors.lightBlue[900],
       ),
-      body: Column(children: [
+      body:  Column(children: [
         Container(
           padding: EdgeInsets.fromLTRB(
             15,
@@ -18,10 +18,8 @@ class Contato extends StatelessWidget {
           ),
           child: Column(
             children: [
-              Text(
-                'Avaliação',
-                style: TextStyle(fontSize: 15),
-              ),
+              Text('Dicas',style: TextStyle(fontSize: 15),),
+
             ],
           ),
         ),
