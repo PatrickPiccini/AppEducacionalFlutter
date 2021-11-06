@@ -4,9 +4,9 @@ import 'package:imdapp/utills/dicas.dart';
 import 'package:imdapp/utills/horarios.dart';
 import 'package:imdapp/utills/notas.dart';
 import 'package:imdapp/utills/positivoon.dart';
-import 'package:imdapp/utills/avaliacao.dart';
 import 'package:flutter/material.dart';
 import 'package:imdapp/utills/creditos.dart';
+import 'package:imdapp/utills/url_links.dart';
 
 class GridOpcoes extends StatelessWidget {
   @override
@@ -24,16 +24,14 @@ class GridOpcoes extends StatelessWidget {
                   child: buttonIcon(
                       Icon(Icons.check_circle_outline_rounded,
                           color: Colors.grey[900]),
-                      'Avaliações',
+                      'Links úteis',
                       context,
-                      Avaliacao())),
+                  UrlLinks())),
               Container(
                   margin: (EdgeInsets.fromLTRB(30, 30, 50, 0)),
                   child: buttonIcon(
-                      Icon(
-                        Icons.auto_stories_outlined,
-                        color: Colors.grey[900],
-                      ),
+                      Icon(Icons.auto_stories_outlined,
+                        color: Colors.grey[900],),
                       'Notas e Faltas',
                       context,
                       Notas())),

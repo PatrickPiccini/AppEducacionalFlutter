@@ -8,22 +8,27 @@ class Creditos extends StatelessWidget {
         title: Text('Créditos'),
         backgroundColor: Colors.lightBlue[900],
       ),
-      body:  Column(children: [
-        Container(
-          padding: EdgeInsets.fromLTRB(
-            15,
-            15,
-            15,
-            15,
-          ),
+        body: Container(
+          width: double.infinity,
           child: Column(
-            children: [
-              Text('Créditos',style: TextStyle(fontSize: 15),),
-
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('FACULDADE MERIDIONAL'),
+                Text('IMED PASSO FUNDO'),
+                Text('CIÊNCIA DA COMPUTAÇÃO'),
+                Text(''),
+                Text('Disciplina:'),
+                Text('Tópicos Especiais'),
+                Text(''),
+                Text('Professor:'),
+                Text('Ricardo da Silva Ogliari'),
+                Text(''),
+                Text('Alunos:'),
+                Text('Patrick Berlatto Piccini'),
+                Text('Vitalino Pitt'),
             ],
           ),
         ),
-      ]),
     );
-  }
+    }
 }
