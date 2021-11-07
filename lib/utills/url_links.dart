@@ -15,7 +15,7 @@ class UrlLinks extends StatelessWidget {
    @override
    Widget build(BuildContext context) {
        return Scaffold(
-           appBar: AppBar(title: Text('Links úteis'),),
+           appBar: AppBar(title: Text('Links úteis')),
            body: Container(
              width: double.infinity,
              child: Column(
@@ -23,32 +23,32 @@ class UrlLinks extends StatelessWidget {
                children: [
                  TextButton.icon(
                    icon: Icon(Icons.school),
-                   label: Text('Menino Deus'),
+                   label: Text('Menino Deus', style: TextStyle(fontSize: 20)),
                    onPressed: () => _launchLink('http://www.meninodeus.com.br/'),
                  ),
                  TextButton.icon(
                    icon: Icon(Icons.school),
-                   label: Text('Sistema Acadêmico'),
+                   label: Text('Sistema Acadêmico', style: TextStyle(fontSize: 20)),
                    onPressed: () => _launchLink('http://177.75.159.192:8080/AdmEscolar/servlet/hlogin'),
                  ),
                  TextButton.icon(
                    icon: Icon(Icons.school),
-                   label: Text('Positivo On'),
+                   label: Text('Positivo On', style: TextStyle(fontSize: 20)),
                    onPressed: () => _launchLink('https://positivoon.com.br/#/login'),
                  ),
                  TextButton.icon(
                    icon: Icon(Icons.link),
-                   label: Text('Youtube'),
+                   label: Text('Youtube', style: TextStyle(fontSize: 20)),
                    onPressed: () => _launchLink('https://www.youtube.com/user/InstitutoMeninoDeus'),
                  ),
                  TextButton.icon(
                    icon: Icon(Icons.link),
-                   label: Text('Instagram'),
+                   label: Text('Instagram', style: TextStyle(fontSize: 20)),
                    onPressed: () => _launchLink('http://instagram.com/institutomeninodeus'),
                  ),
                  TextButton.icon(
                    icon: Icon(Icons.link),
-                   label: Text('Facebook'),
+                   label: Text('Facebook', style: TextStyle(fontSize: 20)),
                    onPressed: () => _launchLink('https://www.facebook.com/institutomeninodeus/'),
                  ),
                ],

@@ -2,10 +2,9 @@ import 'package:imdapp/utills/contato.dart';
 import 'package:imdapp/utills/calendario.dart';
 import 'package:imdapp/utills/dicas.dart';
 import 'package:imdapp/utills/horarios.dart';
-import 'package:imdapp/utills/notas.dart';
-import 'package:imdapp/utills/positivoon.dart';
 import 'package:flutter/material.dart';
 import 'package:imdapp/utills/creditos.dart';
+import 'package:imdapp/utills/redentoristas.dart';
 import 'package:imdapp/utills/tarefas.dart';
 import 'package:imdapp/utills/url_links.dart';
 
@@ -23,7 +22,7 @@ class GridOpcoes extends StatelessWidget {
               Container(
                   margin: (EdgeInsets.fromLTRB(50, 30, 30, 0)),
                   child: buttonIcon(
-                      Icon(Icons.check_circle_outline_rounded,
+                      Icon(Icons.travel_explore_outlined,
                           color: Colors.grey[900]),
                       'Links úteis',
                       context,
@@ -31,11 +30,11 @@ class GridOpcoes extends StatelessWidget {
               Container(
                   margin: (EdgeInsets.fromLTRB(30, 30, 50, 0)),
                   child: buttonIcon(
-                      Icon(Icons.auto_stories_outlined,
+                      Icon(Icons.wb_shade_rounded,
                         color: Colors.grey[900],),
-                      'Notas e Faltas',
+                      'Redentoristas',
                       context,
-                      Notas())),
+                      Redentoristas())),
             ],
           ),
           Row(
