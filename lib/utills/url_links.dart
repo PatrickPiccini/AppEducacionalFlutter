@@ -36,6 +36,7 @@ class UrlLinks extends StatelessWidget {
                    label: Text('Positivo On', style: TextStyle(fontSize: 20)),
                    onPressed: () => _launchLink('https://positivoon.com.br/#/login'),
                  ),
+                 Divider(),
                  TextButton.icon(
                    icon: Icon(Icons.link),
                    label: Text('Youtube', style: TextStyle(fontSize: 20)),

@@ -21,10 +21,13 @@ class Redentoristas extends StatelessWidget {
           ),
           child: Column(
             children: [
-              Text('A Congregação do Santíssimo Redentor (latimː Congregatio Sanctissimi Redemptoris - CSsR), comumente conhecida como Redentoristas, é uma congregação religiosa católica fundada por Santo Afonso de Ligório, em Scala, perto de Amalfi, Itália, com o propósito de trabalhar entre os camponeses abandonados em torno de Nápoles em 1732. Os membros da congregação são padres católicos e irmãos religiosos consagrados e ministrar em mais de 100 países.',style: TextStyle(fontSize: 16),),
-              Text('A Congregação do Santíssimo Redentor foi a resposta de Santo Afonso de Ligório ao chamado que ele ouviu de Jesus por meio dos pobres, junto ao apoio místico e espiritual da Beata Maria Celeste Crostarosa.',style: TextStyle(fontSize: 16),),
-              Text('Os Redentoristas são especialmente dedicados a Nossa Senhora do Perpétuo Socorro e foram nomeados pelo Papa Pio IX em 1865 como guardiões e missionários do ícone desse título, que está consagrado na Igreja Redentorista de Santo Afonso de Ligório em Roma.',style: TextStyle(fontSize: 16),),
-
+              Text('A Congregação do Santíssimo Redentor - Missionários Redentoristas - foi fundada por Santo Afonso Maria de Ligório, no dia 9 de novembro de 1732, em Scala, no Reino de Nápoles, Sul da Itália.',style: TextStyle(fontSize: 16),),
+              Text('Santo Afonso nasceu no dia 27 de setembro de 1696 e faleceu no dia 01 de agosto de 1787. Era filho de uma das mais antigas e nobres famílias de Nápoles. Seu pai era Capitão da Marinha Real e sua mãe católica fervorosa. Aos 16 anos já era formado em Direito Civil e Eclesiástico, e tornou-se um grande advogado em sua época.',style: TextStyle(fontSize: 16),),
+              Text('Após fazer um retiro na região de Scala e no contato com os cabreiros, os pobres que moravam nos campos, surge em seu coração o desejo de ser padre junto aos mais abandonados. Ele partilha esse desejo com outros amigos e, deixando a cidade de Nápoles, parte para Scala, onde com seus amigos inicia a Congregação do Santíssimo Redentor, tendo como carisma o anúncio de que, em Cristo, a Redenção é Copiosa, é para todos.',style: TextStyle(fontSize: 16),),
+              Text('Hoje, no Brasil, os Missionários Redentoristas estão presentes em 9 unidades, chamadas de Províncias ou Vice-Províncias. No mundo, os redentoristas estão presentes em 79 países.',style: TextStyle(fontSize: 16),),
+              Text('Nas Constituições Redentoristas, encontramos no número 20, o retrato de como devem ser os Missionários Redentoristas:',style: TextStyle(fontSize: 16),),
+              Text(''),
+              Text('"Fortes na fé, alegres na esperança, fervorosos na caridade, inflamados no zelo, humildes e sempre dados à oração."',style: TextStyle(fontSize: 18),),
             ],
           ),
         ),
