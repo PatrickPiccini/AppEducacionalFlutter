@@ -13,8 +13,8 @@ class Creditos extends StatelessWidget {
           child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Text('IMED - PASSO FUNDO', style: TextStyle(fontSize: 20, color: Colors.lightBlue[900])),
                 Text('FACULDADE MERIDIONAL', style: TextStyle(fontSize: 20, color: Colors.lightBlue[900])),
-                Text('IMED PASSO FUNDO', style: TextStyle(fontSize: 20, color: Colors.lightBlue[900])),
                 Text('CIÊNCIA DA COMPUTAÇÃO', style: TextStyle(fontSize: 20, color: Colors.lightBlue[900])),
                 Text(''),
                 Text(''),
@@ -29,6 +29,10 @@ class Creditos extends StatelessWidget {
                 Text('ALUNOS:', style: TextStyle(fontSize: 20, color: Colors.lightBlue[900])),
                 Text('Patrick Berlatto Piccini', style: TextStyle(fontSize: 16, color: Colors.lightBlue[900])),
                 Text('Vitalino Pitt', style: TextStyle(fontSize: 16, color: Colors.lightBlue[900])),
+                Text(''),
+                Text(''),
+                Text('ANO:', style: TextStyle(fontSize: 20, color: Colors.lightBlue[900])),
+                Text('2021/2', style: TextStyle(fontSize: 16, color: Colors.lightBlue[900])),
             ],
           ),
         ),
