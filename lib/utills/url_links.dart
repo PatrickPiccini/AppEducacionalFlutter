@@ -8,14 +8,16 @@ class UrlLinks extends StatelessWidget {
     if(await canLaunch(url)){
       await launch(url, forceWebView: false, forceSafariVC: false);
     }else{
-      print('Não foi possível executar o link $url');
+      print('Não foi possível acessar o link $url');
     }
   }
 
    @override
    Widget build(BuildContext context) {
        return Scaffold(
-           appBar: AppBar(title: Text('Links úteis')),
+           appBar: AppBar(title: Text('Links úteis'),
+             backgroundColor: Colors.lightBlue[900],
+           ),
            body: Container(
              width: double.infinity,
              child: Column(
