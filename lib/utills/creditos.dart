@@ -18,7 +18,7 @@ class Creditos extends StatelessWidget {
                 Text('CIÊNCIA DA COMPUTAÇÃO', style: TextStyle(fontSize: 20, color: Colors.lightBlue[900])),
                 Text(''),
                 Text(''),
-                Text('DISCIPLINA:', style: TextStyle(fontSize: 18, color: Colors.lightBlue[900])),
+                Text('DISCIPLINA:', style: TextStyle(fontSize: 20, color: Colors.lightBlue[900])),
                 Text('Tópicos Especiais', style: TextStyle(fontSize: 16, color: Colors.lightBlue[900])),
                 Text(''),
                 Text(''),

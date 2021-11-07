@@ -2,7 +2,7 @@
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
 
-class Dicas extends StatelessWidget {
+class Pedagogico extends StatelessWidget {
   GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   int _selectedIndex = 0;
 
@@ -10,7 +10,7 @@ class Dicas extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      appBar: AppBar(title: Text('Dicas'),
+      appBar: AppBar(title: Text('Pedagógico'),
         backgroundColor: Colors.lightBlue[900],
       ),
       body: SingleChildScrollView(

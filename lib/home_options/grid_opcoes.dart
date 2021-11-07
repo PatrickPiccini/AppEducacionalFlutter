@@ -1,6 +1,6 @@
 import 'package:imdapp/utills/contato.dart';
 import 'package:imdapp/utills/calendario.dart';
-import 'package:imdapp/utills/dicas.dart';
+import 'package:imdapp/utills/pedagogico.dart';
 import 'package:imdapp/utills/horarios.dart';
 import 'package:flutter/material.dart';
 import 'package:imdapp/utills/creditos.dart';
@@ -63,11 +63,11 @@ class GridOpcoes extends StatelessWidget {
               Container(
                   margin: (EdgeInsets.fromLTRB(50, 20, 30, 0)),
                   child: buttonIcon(
-                      Icon(Icons.lightbulb_outline_rounded,
+                      Icon(Icons.auto_stories_outlined,
                           color: Colors.grey[900]),
-                      'Dicas',
+                      'Pedagógico',
                       context,
-                      Dicas())),
+                      Pedagogico())),
               Container(
                   margin: (EdgeInsets.fromLTRB(30, 20, 50, 0)),
                   child: buttonIcon(
