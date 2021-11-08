@@ -26,16 +26,15 @@ class Contato extends StatelessWidget {
                  TextButton.icon(
                    icon: Icon(Icons.phone),
                    label: Text('Celular / Whatsapp', style: TextStyle(fontSize: 22)),
-                   onPressed: () => _launchLink('tel:54997042777'),
+                   onPressed: () => _launchLink('tel:054997042777'),
                  ),
                  TextButton.icon(
                    icon: Icon(Icons.phone),
                    label: Text('Fixo', style: TextStyle(fontSize: 22)),
-                   onPressed: () => _launchLink('tel:5433141888'),
+                   onPressed: () => _launchLink('tel:05433141888'),
                  ),
-                 Text(''),
-                 Divider(),
-                 Text(''),
+                 Divider(height: 30,color: Colors.grey,),
+
 
                  TextButton.icon(
                    icon: Icon(Icons.mail),
