@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "108713718105",
+    "project_id": "imdapp-e2111",
+    "storage_bucket": "imdapp-e2111.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108713718105:android:abbd5d18255dfbd5901c48",
+        "android_client_info": {
+          "package_name": "piccini.com.br.imdapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108713718105-d3fskqn1rlv1tcpb2sdhk9kjvbbtrrrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR75O0D-tgh99Wau4B8KUFOu4jcAQJ9Uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108713718105-d3fskqn1rlv1tcpb2sdhk9kjvbbtrrrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

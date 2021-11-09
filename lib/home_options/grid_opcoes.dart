@@ -1,3 +1,4 @@
+import 'package:imdapp/firebase/fire_controller.dart';
 import 'package:imdapp/utills/contato.dart';
 import 'package:imdapp/utills/calendario.dart';
 import 'package:imdapp/utills/pedagogico.dart';
@@ -16,6 +17,20 @@ class GridOpcoes extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 40),
       child: Column(
         children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                  margin: (EdgeInsets.fromLTRB(30, 20, 30, 0)),
+                  child: buttonIcon(
+                      Icon(Icons.local_fire_department_outlined,
+                          color: Colors.grey[900]),
+                      'FireBase',
+                      context,
+                      firebase())),
+
+            ],
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -96,7 +111,8 @@ class GridOpcoes extends StatelessWidget {
                       context,
                       Creditos())),
             ],
-          )
+          ),
+
         ],
       ),
     ));

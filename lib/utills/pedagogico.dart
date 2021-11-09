@@ -27,28 +27,21 @@ class Pedagogico extends StatelessWidget {
                           children: [
                             Text(
                                 "     A avaliação do desempenho do aluno é contínua, com prevalência dos aspectos qualitativos sobre os quantitativos, levando em conta o nível dos objetivos propostos pelo professor.", textAlign: TextAlign.justify,),
-                            Divider(height: 8,),
+
                             Text(
                                 "     A avaliação assume caráter diagnóstico de forma contínua processual, visando apreciar e verificar as mudanças ocorridas no comportamento e nas atitudes do educando, no desenvolvimento de suas capacidades, suas competências e nos conhecimentos.", textAlign: TextAlign.justify,),
-                            Divider(height: 8,),
                             Text(
                                 "     A verificação do rendimento escolar se dá por meio de instrumentos próprios, buscando detectar o grau de progresso do aluno em cada conteúdo e o levantamento de dificuldades visando a sua recuperação.", textAlign: TextAlign.justify,),
-                            Divider(height: 8,),
                             Text(
                                 "     Os resultados da avaliação e do aproveitamento do aluno são registrados em pontos, de zero (O) a cem (100). A periodicidade de avaliações e de organização da série é por bimestralidade.  A avaliação da escola obedece aos propósitos de uma avaliação somatória.", textAlign: TextAlign.justify,),
-                            Divider(height: 8,),
                             Text(
                                 "     Periodicamente é dado conhecimento aos pais ou responsáveis e ao aluno o resultado da avaliação do estudante através do sistema on-line e com entrega de boletins e avaliações bimestralmente.", textAlign: TextAlign.justify,),
-                            Divider(height: 8,),
                             Text(
                                 "     A avaliação da Educação Infantil é realizada através de observação do crescimento da criança nos aspectos cognitivo, afetivo, social e psicomotor sendo expressa em Pareceres Descritivos, bimestralmente.", textAlign: TextAlign.justify,),
-                            Divider(height: 8,),
                             Text(
                                 "     A avaliação do primeiro 1° e do 2º do Ensino Fundamental (9 anos) será expressa em Pareceres Descritivos nos quatro bimestres.  A partir do 3º ano do Ensino Fundamental Séries Iniciais, Séries Finais e do Ensino Médio a avaliação do primeiro bimestre tem peso máximo de vinte (20) pontos.  A do segundo bimestre vinte (20) pontos.  A do terceiro bimestre vale trinta (30) pontos e a do quarto bimestre vale trinta (30) pontos, totalizando cem (100) pontos anuais.", textAlign: TextAlign.justify,),
-                            Divider(height: 8,),
                             Text(
                                 "     A divisão da periodicidade dos bimestres estará descrita no Plano Global da Escola, anualmente. Para obter o resultado final do aproveitamento, após o período letivo, somam-se os pontos obtidos pelos alunos nos quatro bimestres eou após a realização dos estudos de recuperação no decorrer do ano letivo, devendo totalizar um mínimo de 70 pontos anuais.", textAlign: TextAlign.justify,),
-                            Divider(height: 8,),
                             Text(
                                 "     Em todos os níveis da Escola Instituto Menino Deus a avaliação terá por foco o desenvolvimento das habilidades e competências desenvolvidas no decorrer do período letivo, conforme a Base Nacional Comum Curricular / MEC, Regimento Estadual de Educação e Documento Orientador do Território Municipal de Passo Fundo.", textAlign: TextAlign.justify,),
                           ],
