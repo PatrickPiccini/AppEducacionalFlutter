@@ -21,20 +21,6 @@ class GridOpcoes extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                  margin: (EdgeInsets.fromLTRB(30, 20, 30, 0)),
-                  child: buttonIcon(
-                      Icon(Icons.local_fire_department_outlined,
-                          color: Colors.grey[900]),
-                      'FireBase',
-                      context,
-                      firebase())),
-
-            ],
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
                   margin: (EdgeInsets.fromLTRB(50, 30, 30, 0)),
                   child: buttonIcon(
                       Icon(Icons.travel_explore_outlined,
@@ -63,13 +49,15 @@ class GridOpcoes extends StatelessWidget {
                       context,
                       Tarefa())),
               Container(
-                  margin: (EdgeInsets.fromLTRB(30, 30, 50, 0)),
+                  margin: (EdgeInsets.fromLTRB(30, 20, 50, 0)),
                   child: buttonIcon(
                       Icon(Icons.calendar_today_outlined,
-                          color: Colors.grey[900]),
+                          color: Colors.grey[900]
+                          ),
                       'Calendário',
                       context,
-                      Calendario())),
+                      firebase())),
+
             ],
           ),
           Row(

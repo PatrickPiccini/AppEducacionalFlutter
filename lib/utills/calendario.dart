@@ -276,7 +276,7 @@ class Calendario extends StatelessWidget {
                                 style: TextStyle(fontSize: 15)),
                             Text("12 | Nossa Senhora Aparecida ",
                                 style: TextStyle(fontSize: 15)),
-                            Text("      | Dia da Criança (Feriado) ",
+                            Text("   | Dia da Criança (Feriado) ",
                                 style: TextStyle(fontSize: 15)),
                             Text("15 | Dia do Professor (aula normal) ",
                                 style: TextStyle(fontSize: 15)),

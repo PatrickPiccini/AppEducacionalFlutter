@@ -1,4 +1,3 @@
-
 import 'package:firebase_core/firebase_core.dart';
 import 'package:imdapp/home_options/grid_opcoes.dart';
 import 'package:flutter/material.dart';
@@ -56,14 +55,21 @@ class MyApp extends StatelessWidget {
 
 class Inicio extends StatelessWidget {
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.lightBlue[900],
-        title: Text("Instituto Menino Deus"),
-        centerTitle: true,
-      ),
-      body: GridOpcoes()
-    );
+        appBar: AppBar(
+          backgroundColor: Colors.lightBlue[900],
+          flexibleSpace: Container(
+            margin: EdgeInsets.only(top: 27),
+            height: 50,
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('./lib/images/logoMD.png'),
+              ),
+            ),
+          ),
+          centerTitle: true,
+        ),
+        body: GridOpcoes());
   }
 }
