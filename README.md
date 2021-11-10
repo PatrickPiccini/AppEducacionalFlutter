@@ -11,6 +11,34 @@ Esse trabalho tem como objetivo criar uma aplicação mobile funcional, utilizan
   - Usar ao menos um pacote que não foi visto em aula.
 
 ### Funções das Telas
+  -  Tela Inicial:  
+    Na tela inicial encontram-se uma grade de ícones com o acesso as principais funcionalidades:
+  -  Tela de links úteis:  
+    Nesta tela o usuário vai poder navegar (utilizando url_launcher) para:
+      * Site da escola com informações da instituição;
+      * Sistema Acadêmico para verificar suas notas, datas de avaliações...;
+      * Positivo On – ferramenta com os livros digitais/digitalizados e todo o conteúdo para cada série;
+      * Redes sociais (Youtube, Instagram e Facebook).
+  -  Tela Redentoristas:  
+    Aqui o usuário encontrará resumidamente a história dos Redentoristas, fundadores e mantenedores da escola.
+  -  Tela Listas e tarefas:  
+    Nesta tela o usuário poderá adicionar suas tarefas, marcar como feitas e excluir caso necessário.
+  -  Tela Listas e tarefas:  
+    Nesta tela o usuário poderá adicionar suas tarefas, marcar como feitas e excluir caso necessário. 
+  -  Tela Pedagógico:  
+    Na tela de funções pedagógicas, o usuário terá acesso através da função expandable a:
+      * Avaliação Escolar;
+      * Estudos de recuperação;  
+      * Normas de convivência;
+      * História do Menino Deus;
+      * Princípios Cristão e Pedagógicos;
+      * Estrutura Físico-Pedagógica.
+  -  Horário de atendimento:  
+    Fica disponível nesta tela horários e dias de atendimento da escola
+
+
+
+
 
 
 # Telas
