@@ -52,10 +52,12 @@ class GridOpcoes extends StatelessWidget {
                   margin: (EdgeInsets.fromLTRB(30, 20, 50, 0)),
                   child: buttonIcon(
                       Icon(Icons.calendar_today_outlined,
-                          color: Colors.grey[900]),
+                          color: Colors.grey[900]
+                          ),
                       'Calendário',
                       context,
-                      Calendario())),
+                      firebase())),
+
             ],
           ),
           Row(
